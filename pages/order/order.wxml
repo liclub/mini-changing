@@ -1,0 +1,11 @@
+<scroll-view scroll-y  bindscrolltoupper="upper" bindscrolltolower="lower" bindscroll="scroll" scroll-into-view="{{toView}}" scroll-top="{{scrollTop}}" class="topLine">
+  <view class="line">车险保单
+  <text class='iconfont .icon-jiantou-copy-copy1 orderFont'></text>
+  </view>
+  <view class="line">非车险保单
+  <text class='iconfont .icon-jiantou-copy-copy1 orderFont'></text>
+  </view>
+  <view class="line">意健险保单
+  <text class='iconfont .icon-jiantou-copy-copy1 orderFont'></text>
+  </view>
+</scroll-view>

@@ -1,0 +1,74 @@
+@import "../../commonCss/iconfont.wxss";
+.head-img{
+	width:130rpx;
+	height:130rpx;
+	margin-left:40rpx;
+	border-radius:100%;
+	overflow:hidden;
+	display:block;
+
+}
+.navi-view{
+	display:flex;
+	flex-direction: row;
+	justify-content: left;
+	align-items: center;
+	background: url("https://test.95590.cn/mobileplat/headImg?u=4301000000") 0% 0% / cover no-repeat;
+	padding:10rpx 0 10rpx 0;
+	height:170rpx;
+
+}
+.zanCount{
+	margin-top:10rpx;
+}
+.head-name{
+	margin-left:40rpx;
+	font-size:29rpx;
+	color:#fff
+}
+.choseType{
+	display:flex;
+	flex-direction: row;
+	justify-content: left;
+	align-items: center;
+	color:#7F8389;
+	font-size:25rpx ! important;
+	margin-top:20rpx;
+}
+.choseView{
+	width:16.6%;
+	text-align:center;
+}
+.choseType .iconfont{
+	color:#7F8389;
+	font-size:45rpx ! important;
+}
+.choseType .text{
+	margin-top:15rpx;
+}
+.flex-product{
+	display:flex;
+	flex-direction: row;
+	justify-content: left;
+	align-items: center;
+	flex-wrap:wrap ;
+	width:100%;
+	background:#f2f2f2;
+}
+.product-sty {
+	width:47%;
+	margin: 10rpx 0rpx 0rpx 15rpx ;
+}
+.product-sty image{
+	width:100%;
+	height:250rpx;
+}
+.pro-name{
+	font-size:25rpx;padding-left:15rpx;
+	background:#fff;
+}
+.pro-price{
+	color: #ff6e48;font-size:28rpx;
+	padding-left:10rpx;
+	background:#fff;
+}

@@ -1,0 +1,49 @@
+<scroll-view scroll-y  bindscrolltoupper="upper" bindscrolltolower="lower" bindscroll="scroll" scroll-into-view="{{toView}}" scroll-top="{{scrollTop}}" class="topLine">
+	<view class="navi-view">
+	    <open-data class="head-img" type="userAvatarUrl"></open-data>
+	    <view class="head-name">
+	      <view><open-data  type="userNickName"></open-data></view>
+	    </view>
+	    <text class='iconfont .icon-jiantou-copy-copy1 orderFont' style="margin-left:360rpx;"></text>
+    </view>
+	<view class="line">
+	  <text class='iconfont icon-tuijianhaoyou'></text>
+		我的好友
+	  <text class='iconfont .icon-jiantou-copy-copy1 orderFont'></text>
+	</view>
+	<view class="line" style="border-bottom:4px solid #efeff4">
+	  <text class='iconfont icon-tuandui'></text>
+		我的团队
+	  <text class='iconfont .icon-jiantou-copy-copy1 orderFont'></text>
+	</view>
+	<view class="line">
+	  <text class='iconfont icon-zhanghu' style="font-size:13px;"></text>
+		我的账户
+	  <text class='iconfont .icon-jiantou-copy-copy1 orderFont' ></text>
+	</view>
+	<view class="line">
+	  <text class='iconfont icon-hongbao'></text>
+		我的红包
+	  <text class='iconfont .icon-jiantou-copy-copy1 orderFont'></text>
+	</view>
+	<view class="line">
+	  <text class='iconfont icon-peixun-copy'></text>
+		我的培训
+	  <text class='iconfont .icon-jiantou-copy-copy1 orderFont'></text>
+	</view>
+	<view class="line" style="border-bottom:4px solid #efeff4">
+	  <text class='iconfont icon-tixian'></text>
+		提现记录
+	  <text class='iconfont .icon-jiantou-copy-copy1 orderFont'></text>
+	</view>
+	<view class="line">
+	  <text class='iconfont icon-mendiancanshushezhi'></text>
+		门店设置
+	  <text class='iconfont .icon-jiantou-copy-copy1 orderFont'></text>
+	</view>
+	<view class="line">
+	  <text class='iconfont icon-zhanghushezhi'></text>
+		账户设置
+	  <text class='iconfont .icon-jiantou-copy-copy1 orderFont'></text>
+	</view>
+</scroll-view>

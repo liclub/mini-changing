@@ -1,0 +1,8 @@
+<view id="look-sex">
+	<view class="sex-text">
+		<image style="height:18rpx;width:55%;position:absolute;bottom:0;left:23%;" src="../../images/img/p2_top.png"></image>
+		选择我的性别
+	</view>
+	<image bindtap="toGirlLook" class="sex-choose" src="../../images/img/p2_female.png"></image>
+	<image bindtap="toBoyLook" class="sex-choose" src="../../images/img/p2_male.png"></image>
+</view>

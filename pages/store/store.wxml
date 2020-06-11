@@ -1,0 +1,44 @@
+<scroll-view scroll-y  bindscrolltoupper="upper" bindscrolltolower="lower" bindscroll="scroll" scroll-into-view="{{toView}}" scroll-top="{{scrollTop}}">
+  <view class="navi-view">
+    <open-data class="head-img" type="userAvatarUrl"></open-data>
+    <view class="head-name">
+      <view><open-data  type="userNickName"></open-data>的门店</view>
+    </view>
+  </view>
+  <view class="choseType">
+    <view class="choseView" bindtap="tapType" data-idx="0" data-val="0">
+      <text class='iconfont icon-fire' style='color:{{chooseColor[0]}};'></text>
+      <view class="text" style='color:{{chooseColor[0]}};'>热门</view>
+    </view>
+    <view class="choseView" bindtap="tapType" data-idx="1" data-val="3">
+      <text class='iconfont icon-weibiaoti6' style='color:{{chooseColor[1]}};'></text>
+      <view class="text" style='color:{{chooseColor[1]}};'>家庭</view>
+    </view>
+    <view class="choseView" bindtap="tapType" data-idx="2" data-val="5">
+      <text class='iconfont icon-laoyou' style='color:{{chooseColor[2]}};'></text>
+      <view class="text" style='color:{{chooseColor[2]}};'>老幼</view>
+    </view>
+    <view class="choseView" bindtap="tapType" data-idx="3" data-val="2">
+      <text class='iconfont icon-chuhang' style='color:{{chooseColor[3]}};'></text>
+      <view class="text" style='color:{{chooseColor[3]}};'>出行</view>
+    </view>
+    <view class="choseView" bindtap="tapType" data-idx="4" data-val="1">
+      <text class='iconfont icon-jiankang' style='color:{{chooseColor[4]}};'></text>
+      <view class="text" style='color:{{chooseColor[4]}};'>健康</view>
+    </view>
+    <view class="choseView" bindtap="tapType" data-idx="5" data-val="4">
+      <text class='iconfont icon-qiye' style='color:{{chooseColor[5]}};'></text>
+      <view class="text" style='color:{{chooseColor[5]}};'>企业</view>
+    </view>
+  </view>
+  <view class="flex-product">
+     <view class="product-sty" wx:for="{{productList}}" data-url='{{item.productBuyUrl}}'
+     data-product='{{item.productCode}}'>
+      <view style="background:#fff">
+      <image src="{{item.productImgUrl}}"></image>
+      </view>
+      <view  class="pro-name">{{item.productName}}</view>
+      <view  class="pro-price">￥{{item.productDesc}}起</view>
+    </view>
+  </view>
+</scroll-view>

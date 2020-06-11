@@ -1,0 +1,16 @@
+@import "../../commonCss/iconfont.wxss";
+.line{
+	padding-left:20rpx;
+	border-bottom:1px solid #efeff4;
+	font-size:29rpx;
+	height:75rpx;
+	line-height:75rpx;
+}
+.topLine{
+	border-top:5px solid #efeff4;
+}
+.orderFont{
+	color:#d6d6da;
+	float:right;
+	margin-right:20rpx;
+}
